@@ -1,8 +1,8 @@
-print("Welcome to :::AquaPark:::")
+#Odd or Even
 
-height = int(input("Your height: "))
+number = int(input("Number: "))
 
-if height >= 170:
-  print("You accepted!")
+if number % 2 == 0:
+  print("This is an even number.")
 else:
-  print("You are small!")
+  print("This is an odd number.")
